@@ -5,17 +5,20 @@ progressing from beginner to advanced real-world projects.
 
 ## 📌 Planned Projects
 
-- Add Watermark on Images
-- Image Format Conversion
-- Reduce Image Size
-- Find Dominant Color from Image
-- Cartoonify an Image
-- Get Meta Information of Images
-- Merge PDF Files
-- Convert Image to PDF
-- PDF to Text
-- Capture Frames from Video
-- Split Video Using Time Period
+1. Batch Image Optimizer		
+2. Image Metadata Cleaner (privacy tool)		
+3. Image Format Converter		
+4. OCR Image → Text Extractor		
+5. PDF → Structured Text Extractor		
+6. PDF Table Extractor		
+7. Background Removal (OpenCV)		
+8. Face Blur Tool		
+9. Video Frame Dataset Generator		
+10. Audio → Text Converter		
+11. Audio Format Converter		
+12. Thumbnail Generator		
+13. Image Dataset Organizer		
+14. Media Compression Analyzer
 
 ### Clone the repository using the command:
    ```bash
