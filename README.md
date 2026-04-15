@@ -11,8 +11,8 @@ In Progress....
 - ✔ 5. PDF → Structured Text Extractor		
 - ✔ 6. PDF Table Extractor		
 - ✔ 7. Background Removal (OpenCV)		
-- 8. Face Blur Tool		
-- 9. Video Frame Dataset Generator		
+✔- 8. Face Blur Tool		
+✔- 9. Video Frame Dataset Generator		
 - 10. Audio → Text Converter		
 - 11. Audio Format Converter		
 - 12. Thumbnail Generator		
