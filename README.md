@@ -1,17 +1,16 @@
 ### python-media-processing
 
-This repository is part of a structured Python learning roadmap,
-progressing from beginner to advanced real-world projects.
+In Progress....
 
 ## 📌 Planned Projects
 
-1. Batch Image Optimizer		
-2. Image Metadata Cleaner (privacy tool)		
-3. Image Format Converter		
-4. OCR Image → Text Extractor		
-5. PDF → Structured Text Extractor		
-6. PDF Table Extractor		
-7. Background Removal (OpenCV)		
+✔ 1. Batch Image Optimizer
+✔ 2. Image Metadata Cleaner (privacy tool)		
+✔ 3. Image Format Converter		
+✔ 4. OCR Image → Text Extractor		
+✔ 5. PDF → Structured Text Extractor		
+✔ 6. PDF Table Extractor		
+✔ 7. Background Removal (OpenCV)		
 8. Face Blur Tool		
 9. Video Frame Dataset Generator		
 10. Audio → Text Converter		
