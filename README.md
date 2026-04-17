@@ -1,36 +1,126 @@
-### python-media-processing
+# Audio to Text Converter
 
-In Progress....
+## Description
+Converts spoken audio into written text using OpenAI Whisper.
+This project reads a `.wav` audio file, transcribes speech, and shows text with timestamps in separate segments.
 
-## 📌 Planned Projects
+It helps understand basic speech recognition and audio processing in Python.
 
-- ✔ 1. Batch Image Optimizer
-- ✔ 2. Image Metadata Cleaner (privacy tool)		
-- ✔ 3. Image Format Converter		
-- ✔ 4. OCR Image → Text Extractor		
-- ✔ 5. PDF → Structured Text Extractor		
-- ✔ 6. PDF Table Extractor		
-- ✔ 7. Background Removal (OpenCV)		
-- ✔ 8. Face Blur Tool		
-- ✔ 9. Video Frame Dataset Generator		
-- 10. Audio → Text Converter		
-- 11. Audio Format Converter		
-- 12. Thumbnail Generator		
-- 13. Image Dataset Organizer		
-- 14. Media Compression Analyzer
+It performs:
+- Load audio file
+- Convert speech to text
+- Split text into timed segments
+- Display transcript in readable format
 
-### Clone the repository using the command:
-   ```bash
-   git clone https://github.com/Sabirhusseinbalal/python-media-processing.git
-   ```
+## Modules Used
+- `whisper` – speech-to-text transcription
+- `pathlib` – file and folder handling
+- `shutil` – folder management
 
 
-## 🐍 Python Projects Roadmap – From Basics to Advanced.
-1. [Python Basics – Mini Projects](https://github.com/sabirhusseinbalal/python-basics-mini-projects)
-2. [File & Folder Automation](https://github.com/sabirhusseinbalal/python-file-system-automation)
-3. [Web, Network & API Automation](https://github.com/sabirhusseinbalal/python-web-network-projects)
-4. 👉 **Image, Video & Media Processing**
-5. [Security, Encryption & Utilities](https://github.com/sabirhusseinbalal/python-security-utilities)
-6. [CLI, GUI & Small Apps](https://github.com/sabirhusseinbalal/python-cli-gui-apps)
-7. [Automation Systems & Bots](https://github.com/sabirhusseinbalal/python-automation-systems)
-8. [Advanced Python Projects](https://github.com/sabirhusseinbalal/python-advanced-projects)
+## Output
+```
+Enter full path of the video (or 'q' to quit):
+
+No path provided — using default file: input/Interstellar_scene.wav
+File Loaded: input/Interstellar_scene.wav
+Output folder exists. Delete and continue? (y/n): y
+
+SPK_1
+0.0s --> 1.2s
+ Hey, Mark.
+---------
+
+
+SPK_2
+1.2s --> 2.7s
+ You son of a *****.
+---------
+
+
+SPK_3
+7.2s --> 9.6s
+ I never made one of these when you were still responding,
+---------
+
+
+SPK_4
+9.6s --> 11.4s
+ because I was so mad at you for leaving.
+---------
+
+
+SPK_5
+15.0s --> 16.6s
+ And then when you went quiet,
+---------
+
+
+SPK_6
+19.7s --> 22.2s
+ it seemed like I should live with that decision and I have.
+---------
+
+
+SPK_7
+27.1s --> 29.0s
+ But today is my birthday.
+---------
+
+
+SPK_8
+31.0s --> 34.0s
+ And it's a special one because you told me...
+---------
+
+
+SPK_9
+38.0s --> 42.0s
+ You once told me that when you came back we might be the same age.
+---------
+
+
+SPK_10
+44.0s --> 47.0s
+ And today I'm the age you were when you left.
+---------
+
+
+SPK_11
+50.0s --> 53.0s
+ It would be a real good time for you to come back.
+---------
+
+Enter full path of the audio (or 'q' to quit): q
+
+Exiting...
+```
+
+
+## Features
+- Accepts custom audio path or uses default input file
+- Supports `.wav` audio files
+- Converts speech into text
+- Shows timestamps for each segment
+- Uses local Whisper model
+- Creates fresh output folder
+- Handles errors safely
+
+
+## Project Structure
+```
+10_audio_to_text_converter/
+├── input/
+│   └── Interstellar_scene.wav
+├── output/
+├── main.py
+└── README.md
+```
+
+
+## Notes
+- First run may download Whisper model files
+- Processing speed depends on CPU/GPU
+- Accuracy depends on audio quality and noise
+- Better microphone/audio = better results
+- Great beginner project for learning AI audio tools
