@@ -1,0 +1,45 @@
+
+SPK_1
+0.0s --> 1.2s
+ Hey, Mark.
+---------
+SPK_2
+1.2s --> 2.7s
+ You son of a *****.
+---------
+SPK_3
+7.2s --> 9.6s
+ I never made one of these when you were still responding,
+---------
+SPK_4
+9.6s --> 11.4s
+ because I was so mad at you for leaving.
+---------
+SPK_5
+15.0s --> 16.6s
+ And then when you went quiet,
+---------
+SPK_6
+19.7s --> 22.2s
+ it seemed like I should live with that decision and I have.
+---------
+SPK_7
+27.1s --> 29.0s
+ But today is my birthday.
+---------
+SPK_8
+31.0s --> 34.0s
+ And it's a special one because you told me...
+---------
+SPK_9
+38.0s --> 42.0s
+ You once told me that when you came back we might be the same age.
+---------
+SPK_10
+44.0s --> 47.0s
+ And today I'm the age you were when you left.
+---------
+SPK_11
+50.0s --> 53.0s
+ It would be a real good time for you to come back.
+---------
