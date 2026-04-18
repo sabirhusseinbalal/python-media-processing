@@ -11,20 +11,20 @@ Each project is practical and designed for real-world learning.
 
 ## Projects
 
-01. **[Batch Image Optimizer](01_batch_image_optimizer/)** – Compress and optimize multiple images.
-02. **[Image Metadata Cleaner (Privacy Tool)](02_url_metadata_extractor/)** – Extract title and metadata from web pages.
-03. **[Image Format Converter](03_dns_and_ip_analyzer/)** – Get domain and IP address of a website.
-04. **[OCR Image → Text Extractor](04_website_response_time_analyzer/)** – Measure website response speed.
-05. **[PDF → Structured Text Extractor](05_website_change_detector/)** – Detect changes in website content.
-06. **[PDF Table Extractor](06_api_data_collector_json__to_csv/)** – Fetch API data and save it as CSV.
-07. **[Background Removal (OpenCV)](07_authenticated_api_client/)** – Send authenticated API requests.
-08. **[Face Blur Tool](08_rate_limited_api_handler/)** – Handle API rate limits with retry logic.
-09. **[Video Frame Dataset Generator](09_weather_api_logger/)** – Fetch and store weather data in CSV.
-10. **[Audio → Text Converter](10_news_api_aggregator/)** – Fetch and display news based on a topic.
-11. **[Audio Format Converter](11_webhook_sender_listener/)** – Send and receive data using webhooks.
-12. **[Thumbnail Generator](12_async_web_scraper/)** – Fetch multiple websites using async requests.
-13. **[Image Dataset Organizer](12_async_web_scraper/)** – Fetch multiple websites using async requests.
-14. **[Media Compression Analyzer](12_async_web_scraper/)** – Fetch multiple websites using async requests.
+01. **[Batch Image Optimizer](01_batch_image_optimizer/)** – Media Compression Analyzer
+02. **[Image Metadata Cleaner (Privacy Tool)](02_Image_metadata_cleaner/)** – Remove hidden image metadata
+03. **[Image Format Converter](03_image_format_converterr/)** – Convert images between formats (jpg/png/webp)
+04. **[OCR Image → Text Extractor](04_text_extractor-image/)** – Measure website response speed.
+05. **[PDF → Structured Text Extractor](05_text_extractor-pdf/)** – Detect changes in website content.
+06. **[PDF Table Extractor](06_pdf_table_extractor/)** – Fetch API data and save it as CSV.
+07. **[Background Removal (OpenCV)](07_background_removal/)** – Send authenticated API requests.
+08. **[Face Blur Tool](08_face_blur_tool/)** – Handle API rate limits with retry logic.
+09. **[Video Frame Dataset Generator](09_video_frame_dataset_generator/)** – Fetch and store weather data in CSV.
+10. **[Audio → Text Converter](10_audio_to_text_converter/)** – Fetch and display news based on a topic.
+11. **[Audio Format Converter](11_audio_format_converter/)** – Send and receive data using webhooks.
+12. **[Thumbnail Generator](12_thumbnail_generator/)** – Fetch multiple websites using async requests.
+13. **[Image Dataset Organizer](13_image_dataset_organizer/)** – Fetch multiple websites using async requests.
+14. **[Media Compression Analyzer](14_media_compression_analyzerr/)** – Fetch multiple websites using async requests.
 
 ---
 ***You can use sample test URLs from **[`urls.txt`](urls.txt)** to try all projects.***
@@ -47,9 +47,3 @@ Each project is practical and designed for real-world learning.
 6. [CLI, GUI & Small Apps](https://github.com/sabirhusseinbalal/python-cli-gui-apps)
 7. [Automation Systems & Bots](https://github.com/sabirhusseinbalal/python-automation-systems)
 8. [Advanced Python Projects](https://github.com/sabirhusseinbalal/python-advanced-projects)
-
-
-
-
-
-
