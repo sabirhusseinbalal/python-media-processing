@@ -34,7 +34,7 @@ Each project is practical and designed for real-world learning.
 
 ### Clone the repository using the command:
    ```bash
-   git clone https://github.com/Sabirhusseinbalal/python-web-network-projects.git
+   git clone https://github.com/Sabirhusseinbalal/python-media-processing.git
    ```
 
 
