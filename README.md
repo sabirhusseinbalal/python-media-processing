@@ -27,15 +27,17 @@ Each project is practical and designed for real-world learning.
 14. **[Media Compression Analyzer](14_media_compression_analyzer/)** – Analyze and optimize media file size
 
 ---
-***You can use sample test URLs from **[`urls.txt`](urls.txt)** to try all projects.***
----
-
-## How to Use
 
 ### Clone the repository using the command:
    ```bash
    git clone https://github.com/Sabirhusseinbalal/python-media-processing.git
    ```
+
+## Notes
+- These are learning projects
+- Some results depend on input quality (audio/image/video)
+- First run may download ML models (Whisper, Torch, etc.)
+- Focus is understanding, not perfection
 
 
 ## 🐍 Python Projects Roadmap – From Basics to Advanced.
