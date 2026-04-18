@@ -24,7 +24,7 @@ Each project is practical and designed for real-world learning.
 11. **[Audio Format Converter](11_audio_format_converter/)** – Convert between audio formats (mp3, wav, etc.)
 12. **[Thumbnail Generator](12_thumbnail_generator/)** – Create thumbnails with text overlay
 13. **[Image Dataset Organizer](13_image_dataset_organizer/)** – Auto-sort images using AI classification
-14. **[Media Compression Analyzer](14_media_compression_analyzerr/)** – Analyze and optimize media file size
+14. **[Media Compression Analyzer](14_media_compression_analyzer/)** – Analyze and optimize media file size
 
 ---
 ***You can use sample test URLs from **[`urls.txt`](urls.txt)** to try all projects.***
