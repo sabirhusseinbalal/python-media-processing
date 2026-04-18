@@ -13,7 +13,7 @@ Each project is practical and designed for real-world learning.
 
 01. **[Batch Image Optimizer](01_batch_image_optimizer/)** – Media Compression Analyzer
 02. **[Image Metadata Cleaner (Privacy Tool)](02_Image_metadata_cleaner/)** – Remove hidden image metadata
-03. **[Image Format Converter](03_image_format_converterr/)** – Convert images between formats (jpg/png/webp)
+03. **[Image Format Converter](03_image_format_converter/)** – Convert images between formats (jpg/png/webp)
 04. **[OCR Image → Text Extractor](04_text_extractor-image/)** – Extract text from images using OCR
 05. **[PDF → Structured Text Extractor](05_text_extractor-pdf/)** – Extract readable text from PDF files
 06. **[PDF Table Extractor](06_pdf_table_extractor/)** – Extract tables from PDFs into structured format
