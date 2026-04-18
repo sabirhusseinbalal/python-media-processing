@@ -1,145 +1,40 @@
-# 🐍 Python Basics – Mini Projects
+# Python Image, Video & Media Processing
 
-A collection of small Python programs to practice basic Python concepts like loops, conditions, functions, and user input.
+## Description
+This repository contains beginner-friendly Python projects focused on image processing, video handling, audio conversion, OCR, and media automation.
 
-**Watch Full YouTube Playlist:**
-[[Python Basics – 7 Mini Projects (Group-1)](https://youtube.com/playlist?list=PLBslpEV463Bf8Keopig4650VovFgGPj2C&si=EzjqW1jOUdE2LskK/)]
+The goal is to understand how media data is processed internally using Python libraries like PIL, OpenCV, pytesseract, pydub, and Whisper.
 
----
-
-## 📂 Mini Projects
-
-### 1️⃣ Check Leap Year
-**File:** `1_Check_Leap_Year.py`
-
-- Checks if a year is a leap year
-- Uses standard leap year rules
-- User can exit by typing `q`
+Each project is practical and designed for real-world learning.
 
 ---
 
-### 2️⃣ Decimal ↔ Binary Converter
-**File:** `2_Decimal_to_Binary_&_ViceVersa.py`
+## Projects
 
-- Convert Decimal to Binary
-- Convert Binary to Decimal
-- Uses manual logic (no built-in shortcuts)
-- Validates user input
-- Menu-based program
-
----
-
-### 3️⃣ Calculate Age
-**File:** `3_Calculate_Age.py`
-
-- Calculates age from birth date
-- Handles leap years correctly
-- Shows age in:
-  - Years, months, days
-  - Total months
-  - Total days
-  - Weeks, hours, minutes, seconds
-- Input validation
-- Exit anytime using `q`
+01. **[Batch Image Optimizer](01_batch_image_optimizer/)** – Compress and optimize multiple images.
+02. **[Image Metadata Cleaner (Privacy Tool)](02_url_metadata_extractor/)** – Extract title and metadata from web pages.
+03. **[Image Format Converter](03_dns_and_ip_analyzer/)** – Get domain and IP address of a website.
+04. **[OCR Image → Text Extractor](04_website_response_time_analyzer/)** – Measure website response speed.
+05. **[PDF → Structured Text Extractor](05_website_change_detector/)** – Detect changes in website content.
+06. **[PDF Table Extractor](06_api_data_collector_json__to_csv/)** – Fetch API data and save it as CSV.
+07. **[Background Removal (OpenCV)](07_authenticated_api_client/)** – Send authenticated API requests.
+08. **[Face Blur Tool](08_rate_limited_api_handler/)** – Handle API rate limits with retry logic.
+09. **[Video Frame Dataset Generator](09_weather_api_logger/)** – Fetch and store weather data in CSV.
+10. **[Audio → Text Converter](10_news_api_aggregator/)** – Fetch and display news based on a topic.
+11. **[Audio Format Converter](11_webhook_sender_listener/)** – Send and receive data using webhooks.
+12. **[Thumbnail Generator](12_async_web_scraper/)** – Fetch multiple websites using async requests.
+13. **[Image Dataset Organizer](12_async_web_scraper/)** – Fetch multiple websites using async requests.
+14. **[Media Compression Analyzer](12_async_web_scraper/)** – Fetch multiple websites using async requests.
 
 ---
-
-### 4️⃣ Number Guessing Game
-**File:** `4_Number_Guessing_Game.py`
-
-- Classic number guessing game with a twist
-- Player has **5 hearts** (lives) per round
-- Option to use **3 hints**:
-  1. Even or Odd
-  2. Number range (±10)
-  3. Above or below 50
-- Score increases when guessing correctly, decreases when wrong
-- Tracks **elapsed time** for each session
-- Continuous play until user exits by typing `q`
-
-**How it works:**
-1. Game generates a random number (1–100)
-2. Player guesses the number
-3. Player can request hints if available
-4. Score and hearts update dynamically
-5. Game resets or ends based on player input
-
+***You can use sample test URLs from **[`urls.txt`](urls.txt)** to try all projects.***
 ---
 
-### 5️⃣ Fetch Words from File
-**File:** `5_Fetch_Words_from_File.py`
-
-- Reads text from a .txt file
-- Converts all text to lowercase
-- Removes punctuation
-- Splits text into words
-- Counts word frequency using Counter
-- Option to:
-  * Show only repeated words
-  * Show all words
-- Displays result in a sorted table using pandas
-
-**How it works:**
-1. User enters full file path
-2. Program checks if file exists and is .txt
-3. File content is cleaned (lowercase, no punctuation)
-4. Words are counted
-5. User chooses what to display
-6. Results are shown in descending order
-
----
-
-### 6️⃣ Random Word from File
-**File:** `6_Random_Word_from_File.py`
-
-- Reads text from a .txt file
-- Converts all text to lowercase
-- Removes punctuation
-- Splits text into words
-- Counts word frequency using Counter
-- Option to:
-  * Pick a random word from all words
-  * Pick a random word from repeated words only
-- Prints the selected word randomly
-- Continuous selection until user quits with q
-
-**How it works:**
-1. User enters full file path
-2. Program checks if file exists and is .txt
-3. Cleans the text (lowercase, removes punctuation)
-4. Splits text into words
-5. Finds repeated words
-6. User chooses to print from:
-  * Only repeated words, or
-  * All words
-7. Program prints a random word based on choice
-8. Loop continues until user exits
-
----
-
-### 7️⃣ Countdown Timer
-**File:** `7_Countdown_Timer.py`
-
-- Interactive countdown timer program
-- Supports up to 3 timers running simultaneously
-- Each timer has:
-  * Custom label
-  * Custom countdown duration (in seconds)
-- All timers update together in real-time
-- Screen refreshes every second for a clean live display
-- Displays a message when each timer finishes
-- Option to restart and set new timers
-
-**How it works:**
-1. User chooses number of timers (1–3)
-2. User enters a label and time (in seconds) for each timer
-3. Program clears the screen and updates all timers every second
-4. When a timer reaches zero, it shows a Time’s up message
-5. Program ends when all timers finish, or user chooses to exit
+## How to Use
 
 ### Clone the repository using the command:
    ```bash
-   git clone https://github.com/Sabirhusseinbalal/python-media-processing.git
+   git clone https://github.com/Sabirhusseinbalal/python-web-network-projects.git
    ```
 
 
