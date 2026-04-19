@@ -40,7 +40,7 @@ It helps understand how compression affects image quality and file size in real-
 ```
 Enter full folder path (or 'q' to quit): 
 
-Folder Loaded: D:\Sabir Hussain Balal\Python\Projects\Beginner\python-media-processing\14_media_compression_analyzer\input
+Folder Loaded: ...\input
 Output folder exists. Delete and continue? (y/n): y
 
 ---------------------------
