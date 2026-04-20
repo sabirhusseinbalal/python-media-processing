@@ -49,7 +49,7 @@ def optimize_images(path):
                     count += 1
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found to optimize.")
@@ -82,4 +82,4 @@ while True:
         print(f"Folder Loaded: {path}")
         optimize_images(path)
     else:
-        print("404 - Please enter a valid folder path.")
+        print("Invalid folder path.")
