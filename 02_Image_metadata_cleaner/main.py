@@ -83,4 +83,4 @@ while True:
         print(f"Folder Loaded: {path}")
         clean_metadata(path)
     else:
-        print("404 - Please enter a valid folder path.")
+        print("Invalid folder path.")
