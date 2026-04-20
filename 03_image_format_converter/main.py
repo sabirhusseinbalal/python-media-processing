@@ -29,7 +29,7 @@ def convert_images(path):
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    img_list = [".jpg", ".jpeg", ".png"]
+    img_list = [".jpg", ".jpeg", ".png", ".webp", ".bmp"]
     target_format = get_format()
 
     records = 0
