@@ -61,7 +61,7 @@ def convert_images(path):
                     count += 1
 
     except Exception as e:
-        print(f"Error: {e}")
+        print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found to convert.")
