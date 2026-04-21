@@ -99,4 +99,4 @@ while True:
         print(f"Folder Loaded: {path}")
         face_blur(path)
     else:
-        print("404 - Please enter a valid folder path.")
+        print("Invalid folder path.")
