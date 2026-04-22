@@ -5,7 +5,7 @@ import pytesseract
 
 BASE_DIR = Path(__file__).resolve().parent
 
-# Set your Tesseract path if needed
+# Set path only if Tesseract is not in system PATH
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 
@@ -26,9 +26,10 @@ def extract_text(path):
     records = 0
     count = 1
 
-    try:
-        for file in path.rglob("*"):
-            file = Path(file)
+   
+    for file in path.rglob("*"):
+        file = Path(file)
+        try:
 
             if file.is_file() and file.suffix.lower() in img_list:
                 with Image.open(file) as image:
@@ -53,8 +54,8 @@ def extract_text(path):
                 records += 1
                 count += 1
 
-    except Exception as e:
-        print(f"Error: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No supported images found.")
