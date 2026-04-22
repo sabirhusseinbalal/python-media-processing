@@ -29,7 +29,7 @@ def extract_text(file_path):
                 text = page.extract_text()
                 if text:
                     #f.write(text + '\n')
-                    f.write(f"{"-"*9}\nPage: {page.page_number}\n{"-"*9}\n{text}\n\n\n")
+                    f.write(f"{'-'*9}\nPage: {page.page_number}\n{'-'*9}\n{text}\n\n\n")
         
         print(f"\nText saved successfully: {save_path}")
 
