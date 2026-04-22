@@ -2,6 +2,7 @@
 
 ## Description
 Organizes a mixed image dataset using a pretrained AI model (ResNet50).
+
 The program detects objects inside images and automatically sorts them into folders based on predicted categories.
 
 If confidence is low, images are moved to an `"others"` folder.
