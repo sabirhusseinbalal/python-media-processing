@@ -2,6 +2,7 @@
 
 ## Description
 Extracts text from images using OCR (Optical Character Recognition).
+
 This project reads images from a folder and converts visible text into .txt files.
 
 It helps understand how computers read images in real life using Python.
