@@ -1,7 +1,7 @@
 # Face Blur Tool
 
 ## Description
-Detects human faces in images and blurs them automatically.
+Detects human faces in images using OpenCV and applies blur automatically.
 This project reads images from a folder, finds faces using OpenCV Haar Cascade, applies blur to each detected face, and saves the processed images in a separate output folder.
 
 It helps understand basic computer vision and image processing in Python.
