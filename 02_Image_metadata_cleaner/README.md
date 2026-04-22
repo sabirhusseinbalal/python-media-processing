@@ -27,11 +27,11 @@ Folder Loaded: input/
 Output folder exists. Delete and continue? (y/n): y
 
 ---------
-image1.png
-PNG>JPG | (640, 640)>(300, 300) | RGB>RGB
+image1.jpg
+PNG>JPG | (640, 640)>(640, 640)
 ---------
 image2.jpg
-JPG>JPG | (512, 512)>(300, 300) | RGB>RGB
+PNG>JPG | (640, 640)>(640, 640)
 
 2 images cleaned successfully.
 ```
