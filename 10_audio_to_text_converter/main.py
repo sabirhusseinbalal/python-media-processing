@@ -3,7 +3,7 @@ import shutil
 import whisper
 
 BASE_DIR = Path(__file__).resolve().parent
-
+model = whisper.load_model("small")
 
 def audio_converter(audio_path):
     output_dir = BASE_DIR / "output"
@@ -21,8 +21,6 @@ def audio_converter(audio_path):
 
     try:
 
-        model = whisper.load_model("small")
-
         # Transcribe the audio
         result = model.transcribe(str(audio_path))
 
@@ -32,21 +30,18 @@ def audio_converter(audio_path):
         
         with output_path.open('w', encoding="utf-8") as f:
 
-            for segment in result["segments"]:
+            for i, segment in enumerate(result["segments"], start=1):
                 start = segment["start"]
                 end = segment["end"]
                 text = segment["text"]
-                count = segment["id"]
-
-
-
+              
                 print("\n")
-                print(f"SPK_{int(count)+1}")
+                print(f"SPK_{i}")
                 print(f"{start:.1f}s --> {end:.1f}s")
                 print(text)
                 print("---------")
 
-                f.write(f"\nSPK_{int(count)+1}\n{start:.1f}s --> {end:.1f}s\n{text}\n---------")
+                f.write(f"\nSPK_{i}\n{start:.1f}s --> {end:.1f}s\n{text}\n---------")
             
 
 
