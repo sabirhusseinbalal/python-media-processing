@@ -14,12 +14,11 @@ def compress_image(file, output_dir):
     with Image.open(file) as img:
 
         original_size = get_size_kb(file)
-        original_format = img.format
 
         if img.mode in ("RGBA", "P"):
             img = img.convert("RGB")
 
-        # Resize slightly (compression effect)
+        # Resize (compression effect)
         img.thumbnail((1280, 1280))
 
         output_path = output_dir / f"{file.stem}_compressed.jpg"
@@ -27,7 +26,11 @@ def compress_image(file, output_dir):
 
         compressed_size = get_size_kb(output_path)
 
-        ratio = round((1 - compressed_size / original_size) * 100, 2)
+        # safety check (avoid divide by zero)
+        if original_size == 0:
+            ratio = 0
+        else:
+            ratio = round((1 - compressed_size / original_size) * 100, 2)
 
         print("\n---------------------------")
         print(f"File: {file.name}")
@@ -50,15 +53,18 @@ def analyze_folder(path):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     img_formats = [".jpg", ".jpeg", ".png", ".webp", ".bmp"]
-
     count = 0
 
     for file in path.rglob("*"):
         file = Path(file)
 
-        if file.is_file() and file.suffix.lower() in img_formats:
-            compress_image(file, output_dir)
-            count += 1
+        try:
+            if file.is_file() and file.suffix.lower() in img_formats:
+                compress_image(file, output_dir)
+                count += 1
+
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if count == 0:
         print("No images found.")
