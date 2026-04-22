@@ -22,18 +22,21 @@ def face_blur(path):
 
     records = 0
     cascade_path = cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
+    face_cascade = cv2.CascadeClassifier(cascade_path)
   
 
-    try:
-        for file in path.rglob("*"):
-            file = Path(file)
+    
+    for file in path.rglob("*"):
+
+        file = Path(file)
+        try:
+            
 
             if file.is_file() and file.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp", ".avif"]:
 
-            
-                face_cascade = cv2.CascadeClassifier(cascade_path)
-
-                image = cv2.imread(file)
+                image = cv2.imread(str(file))
+                if image is None:
+                    continue
 
                 # Convert to grayscale for detection
                 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -59,14 +62,11 @@ def face_blur(path):
                 cv2.imwrite(output_path, image)
                 print(f"Blurred image saved to '{output_path}'.")
 
-
-                cv2.waitKey(0)
-                cv2.destroyAllWindows()
                             
                 records += 1
 
-    except Exception as e:
-        print(f"Error: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found.")
