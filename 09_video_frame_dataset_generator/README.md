@@ -1,7 +1,7 @@
 # Video Frame Dataset Generator
 
 ## Description
-Extracts frames from a video file and saves them as images automatically.
+Extracts frames from video files and saves them as images automatically for dataset creation.
 
 This project reads a video, captures frames at intervals, and stores them in a separate output folder. It helps create image datasets from videos for learning, analysis, and machine learning projects.
 
