@@ -1,7 +1,7 @@
-# Image Dataset Organizer (AI Based)
+# AI Image Dataset Organizer using ResNet50
 
 ## Description
-Organizes a mixed image dataset using a pretrained AI model (ResNet50).
+Organizes image datasets automatically using a pretrained ResNet50 deep learning model.
 
 The program detects objects inside images and automatically sorts them into folders based on predicted categories.
 
@@ -56,7 +56,7 @@ Exiting...
 - Batch image processing
 - Confidence-based filtering
 - Handles unknown images safely
-- Simple dataset organizer for ML preparation
+- Helps prepare labeled datasets for machine learning workflows
 
 ---
 
