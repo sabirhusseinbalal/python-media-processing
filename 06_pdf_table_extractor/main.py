@@ -34,12 +34,13 @@ def extract_tables(file_path):
 
                 for table_index, table in enumerate(tables, start=1):
                     table_count += 1
+                    print()
                     print("-" * 30)
-                    print(f"\nPage {page_num} - Table {table_index}:")
+                    print(f"Page {page_num} - Table {table_index}:")
 
 
                     for row in table:
-                        if any(row):
+                        if row and any(row):
                             print(row)
 
 
