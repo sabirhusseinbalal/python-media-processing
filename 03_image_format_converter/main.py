@@ -45,7 +45,7 @@ def convert_images(path):
                     old_size = img.size
                     old_mode = img.mode
 
-                    if img.mode in ("RGBA", "P") and target_format in img_list:
+                    if img.mode in ("RGBA", "P") and target_format in (".jpg", ".jpeg"):
                         img = img.convert("RGB")
 
                     new_img = img.copy()
