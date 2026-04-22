@@ -2,6 +2,7 @@
 
 ## Description
 Converts audio files from one format to another in batch mode.
+
 This project reads audio files from a folder, changes their format, and saves them in a separate output folder.
 
 It helps understand basic audio processing in Python.
