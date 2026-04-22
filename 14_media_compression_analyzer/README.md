@@ -1,7 +1,7 @@
 # Media Compression Analyzer
 
 ## Description
-This project analyzes image compression by comparing original and compressed file sizes.
+This project analyzes image compression by reducing file size and comparing before/after results using Python.
 
 It helps understand how compression affects image quality and file size in real-world media processing.
 
@@ -83,11 +83,10 @@ Enter full folder path (or 'q' to quit):
 ---
 
 ## Features
-- Batch image processing
-- Compression comparison
-- Simple CLI interface
-- Automatic output folder management
-- Safe error handling
+- Batch image compression analysis
+- Before/after size comparison
+- Compression percentage calculation
+- Automatic output folder handling
 
 ---
 
