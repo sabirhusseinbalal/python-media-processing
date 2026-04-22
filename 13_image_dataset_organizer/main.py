@@ -28,9 +28,11 @@ def organize_images(path):
     model.eval()
     preprocess = weights.transforms()
 
-    try:
-        for file in path.rglob("*"):
-            file = Path(file)
+    
+    for file in path.rglob("*"):
+        file = Path(file)
+
+        try:
 
             if file.is_file() and file.suffix.lower() in img_list:
 
@@ -72,8 +74,8 @@ def organize_images(path):
             else:
                 print(f"Skipped: {file.name}")
 
-    except Exception as e:
-        print(f"Error: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found.")
