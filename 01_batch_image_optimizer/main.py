@@ -22,9 +22,11 @@ def optimize_images(path):
     records = 0
     count = 1
 
-    try:
-        for file in path.rglob("*"):
-            file = Path(file)
+    
+    for file in path.rglob("*"):
+        file = Path(file)
+
+        try:
 
             if file.is_file() and file.suffix.lower() in img_list:
                 with Image.open(file) as img:
@@ -48,8 +50,8 @@ def optimize_images(path):
                     records += 1
                     count += 1
 
-    except Exception as e:
-        print(f"Failed to process {file.name}: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found to optimize.")
