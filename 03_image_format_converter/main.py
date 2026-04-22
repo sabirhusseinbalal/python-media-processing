@@ -34,12 +34,12 @@ def convert_images(path):
 
     records = 0
     count = 1
+    for file in path.rglob("*"):
+        file = Path(file)
 
-    try:
-        for file in path.rglob("*"):
-            file = Path(file)
-
-            if file.is_file() and file.suffix.lower() in img_list:
+        try:
+    
+            if file.suffix.lower() in img_list and file.is_file():
                 with Image.open(file) as img:
                     old_format = img.format
                     old_size = img.size
@@ -60,8 +60,8 @@ def convert_images(path):
                     records += 1
                     count += 1
 
-    except Exception as e:
-        print(f"Failed to process {file.name}: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found to convert.")
