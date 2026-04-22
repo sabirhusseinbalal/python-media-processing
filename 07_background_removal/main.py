@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
 from rembg import remove
-from PIL import Image
+
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -23,11 +23,13 @@ def bg_remover(path):
     records = 0
   
 
-    try:
-        for file in path.rglob("*"):
-            file = Path(file)
+    
+    for file in path.rglob("*"):
+        
+        file = Path(file)
+        try:
 
-            if file.is_file():
+            if file.is_file() and file.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp"]:
                     # Open the input image
                     with open(file, "rb") as inp_file:
                         input_data = inp_file.read()
@@ -45,8 +47,8 @@ def bg_remover(path):
 
                     records += 1
 
-    except Exception as e:
-        print(f"Error: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found.")
