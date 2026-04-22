@@ -2,6 +2,7 @@
 
 ## Description
 Optimizes multiple images from a folder by resizing and compressing them.
+
 This project reads images from a folder, processes them, and saves optimized versions in a separate output folder.
 
 It helps understand basic image processing in Python.
