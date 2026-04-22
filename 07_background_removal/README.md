@@ -2,6 +2,7 @@
 
 ## Description
 Removes image backgrounds automatically using AI from multiple images in a folder.
+
 This project reads images from a folder, removes the background, and saves transparent PNG images in a separate output folder.
 
 It helps understand practical AI image processing in Python.
