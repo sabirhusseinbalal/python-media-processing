@@ -6,12 +6,12 @@ BASE_DIR = Path(__file__).resolve().parent
 
 
 def get_format():
-    formats = [".mp3", ".wav", ".ogg", ".flac", ".aac", ".m4a"]
+    audio_formats = [".mp3", ".wav", ".ogg", ".flac", ".aac", ".m4a"]
 
     while True:
         choice = input("Choose format:\n.mp3, .wav, .ogg, .flac, .aac, .m4a\n: ").strip().lower()
 
-        if choice in formats:
+        if choice in audio_formats:
             return choice
 
         print("Invalid choice.")
@@ -30,18 +30,20 @@ def convert_audio(path):
 
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    format_list = [".mp3", ".wav", ".ogg", ".flac", ".aac", ".m4a"]
+    audio_formats = [".mp3", ".wav", ".ogg", ".flac", ".aac", ".m4a"]
     target_format = get_format()
 
     records = 0
 
-    try:
-        for file in path.rglob("*"):
-            file = Path(file)
+    
+    for file in path.rglob("*"):
+        file = Path(file)
 
-            if file.is_file() and file.suffix.lower() in format_list:
+        try:
 
-                print(file)
+            if file.is_file() and file.suffix.lower() in audio_formats:
+
+                print(file.name)
 
                 # same format → just copy
                 if file.suffix.lower() == target_format:
@@ -61,8 +63,8 @@ def convert_audio(path):
 
                 records += 1
 
-    except Exception as e:
-        print(f"Error: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No audio found to convert.")
