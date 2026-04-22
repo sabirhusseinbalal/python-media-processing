@@ -1,11 +1,11 @@
 # Python Image, Video & Media Processing
 
 ## Description
-This repository contains beginner-friendly Python projects focused on image processing, video handling, audio conversion, OCR, and media automation.
+This repository contains beginner-friendly Python projects focused on image processing, video handling, audio processing, OCR, and media automation.
 
-The goal is to understand how media data is processed internally using Python libraries like PIL, OpenCV, pytesseract, pydub, and Whisper.
+The main goal is to understand how real media data is processed internally using Python libraries like PIL, OpenCV, pytesseract, pydub, Whisper, and torchvision.
 
-Each project is practical and designed for real-world learning.
+Each project is practical, step-by-step, and designed for real-world learning — not just theory.
 
 **Watch Full YouTube Playlist:**
 [[Image, Video & Media Processing – 14 Projects (Group-4)](https://youtube.com/playlist?list=PLBslpEV463BeVHm1iQbBjalf8fr4tjpxN&si=AdAhNUPyqnZhf-1x/)]
@@ -37,9 +37,9 @@ Each project is practical and designed for real-world learning.
    ```
 
 ## Notes
-- These are learning projects
-- Some results depend on input quality (audio/image/video)
-- First run may download ML models (Whisper, Torch, etc.)
+- These are learning-focused projects
+- Output depends on input quality (image/audio/video)
+- Some models (Whisper, Torchvision) may download on first run
 - Focus is understanding, not perfection
 
 
