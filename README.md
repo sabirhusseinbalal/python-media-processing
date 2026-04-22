@@ -7,6 +7,9 @@ The goal is to understand how media data is processed internally using Python li
 
 Each project is practical and designed for real-world learning.
 
+**Watch Full YouTube Playlist:**
+[[Image, Video & Media Processing – 14 Projects (Group-4)](https://youtube.com/playlist?list=PLBslpEV463BeVHm1iQbBjalf8fr4tjpxN&si=AdAhNUPyqnZhf-1x/)]
+
 ---
 
 ## Projects
