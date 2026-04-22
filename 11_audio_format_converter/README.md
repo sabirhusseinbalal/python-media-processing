@@ -1,7 +1,7 @@
 # Audio Format Converter
 
 ## Description
-Converts audio files from one format to another in batch mode.
+Converts audio files between different formats in batch mode.
 
 This project reads audio files from a folder, changes their format, and saves them in a separate output folder.
 
@@ -29,12 +29,12 @@ Folder Loaded: input/
 Output folder exists. Delete and continue? (y/n): y
 Choose format:
 .mp3, .wav, .ogg, .flac, .aac, .m4a
-: .mp3
-...\input\Interstellar_scene.wav
-...\Loving Someone More Than Yourself  Good Will Hunting.mp3
-...\input\Motivation Keep Moving Forward  ROCKY BALBOA.mp3
-...\input\Pursuit Of Happyness Iconic Speech.mp3
-...\input\What is Hope  Tim Robbins, Morgan Freeman, Bob Gunton  The Shawshank Redemption #shorts.mp3
+: .wav
+Interstellar_scene.wav
+Loving Someone More Than Yourself  Good Will Hunting.mp3
+Motivation Keep Moving Forward  ROCKY BALBOA.mp3
+Pursuit Of Happyness Iconic Speech.mp3
+What is Hope  Tim Robbins, Morgan Freeman, Bob Gunton  The Shawshank Redemption #shorts.mp3
 5 audio converted successfully.
 
 Enter full path of the folder (or 'q' to quit): q
@@ -50,7 +50,7 @@ Exiting...
 - Supports `.mp3`, `.wav`, `.ogg`, `.flac`, `.aac`, `.m4a`
 - Lets user choose target format
 - Converts all supported audio files
-- Copies file directly if already same format
+- Copies files directly if they are already in the target format
 - Creates fresh output folder
 - Handles errors safely
 
