@@ -1,14 +1,14 @@
 # Background Removal
 
 ## Description
-Removes the background from multiple images inside a folder automatically.
+Removes image backgrounds automatically using AI from multiple images in a folder.
 This project reads images from a folder, removes the background, and saves transparent PNG images in a separate output folder.
 
 It helps understand practical AI image processing in Python.
 
 It performs:
 - Remove background automatically
-- Process many images in one run
+- Batch process multiple images in one run
 - Search images from subfolders
 - Convert output to PNG
 - Save clean transparent images
@@ -18,7 +18,6 @@ It performs:
 - `rembg` – AI background removal
 - `pathlib` – file and folder paths
 - `shutil` – folder management
-- `PIL (Pillow)` – image support
 
 
 ## Output
