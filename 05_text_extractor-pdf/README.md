@@ -2,6 +2,7 @@
 
 ## Description
 Extracts text from text-based PDF files and saves it into a `.txt` file.
+
 This project reads a PDF, gets text page by page, and stores the result in an output folder.
 
 It helps understand basic PDF handling in Python.
