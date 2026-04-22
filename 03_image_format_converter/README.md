@@ -5,7 +5,6 @@ Converts multiple images into another format.
 
 This project reads images from a folder and saves converted copies in a new output folder.
 
-
 It helps understand how image formats work in Python.
 
 It performs:
