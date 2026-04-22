@@ -1,7 +1,7 @@
 # PDF Table Extractor
 
 ## Description
-Extracts tables from PDF files and saves each table as a CSV file.
+Extracts structured tables from PDF files and saves them as CSV files.
 This project reads a PDF, finds table data page by page, and stores the results inside the output folder.
 
 It helps understand PDF data extraction in Python
