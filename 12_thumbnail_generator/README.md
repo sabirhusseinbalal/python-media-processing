@@ -1,7 +1,8 @@
 # Thumbnail Generator
 
 ## Description
-Creates simple thumbnails from images by resizing them and adding custom text.
+Creates simple thumbnail-style images by resizing and adding custom text overlays.
+
 This project reads images from a folder, asks for text for each image, then generates thumbnail-style output images.
 
 It helps practice image editing, text drawing, batch processing, and file handling in Python.
@@ -44,7 +45,7 @@ Exiting...
 ## Features
 - Uses custom folder path or default input folder
 - Supports `.jpg`, `.jpeg`, `.png`
-- Asks different text for each image
+- Allows custom text input for each image
 - Resizes image to thumbnail size
 - Adds text overlay
 - Creates fresh output folder
