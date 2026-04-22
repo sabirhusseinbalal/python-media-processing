@@ -1,7 +1,8 @@
 # Audio to Text Converter
 
 ## Description
-Converts spoken audio into written text using OpenAI Whisper.
+Converts spoken audio into text using OpenAI Whisper speech recognition model.
+
 This project reads a `.wav` audio file, transcribes speech, displays text with timestamps, and saves the transcript into a text file.
 
 It helps understand basic speech recognition and audio processing in Python.
@@ -109,7 +110,7 @@ output/text.txt
 - Converts speech into text
 - Shows timestamps for each segment
 - Saves transcript into text file
-- Uses local Whisper model
+- Uses local OpenAI Whisper model for transcription
 - Creates fresh output folder
 - Handles errors safely
 
