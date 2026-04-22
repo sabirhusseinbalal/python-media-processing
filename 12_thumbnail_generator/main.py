@@ -20,16 +20,18 @@ def thumbnail_create(path):
     img_list = [".jpg", ".jpeg", ".png"]
     records = 0
 
-    try:
-        font = ImageFont.load_default()
+    
+    font = ImageFont.load_default()
 
-        for file in path.rglob("*"):
-            file = Path(file)
+    for file in path.rglob("*"):
+        file = Path(file)
+
+        try:
 
             if file.is_file() and file.suffix.lower() in img_list:
 
                 while True:
-                    text = input(f"Enter Text for {file.name}: ").strip()
+                    text = input(f"\nEnter Text for {file.name}: ").strip()
 
                     if text:
                         break
@@ -61,8 +63,8 @@ def thumbnail_create(path):
                     print(f"Saved: {img_path}")
                     records += 1
 
-    except Exception as e:
-        print(f"Error: {e}")
+        except Exception as e:
+            print(f"Failed to process {file.name}: {e}")
 
     if records == 0:
         print("No images found.")
