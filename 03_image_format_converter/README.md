@@ -12,6 +12,10 @@ It performs:
 - Process multiple files automatically
 - Save clean output copies
 
+**YouTube Video:**
+[[Image Format Converter | Python Image, Video & Media Processing (Project 2)](https://youtu.be/Nu8Pv16ovag?si=yUUUYV248EQoRaj2/)]
+
+---
 
 ## Modules Used
 - `PIL (Pillow)` – image processing
