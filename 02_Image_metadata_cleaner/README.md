@@ -11,6 +11,10 @@ It performs:
 - Removes hidden metadata
 - Saves cleaned images in output folder
 
+**YouTube Video:**
+[[Image Metadata Cleaner | Python Image, Video & Media Processing (Project 2)](https://youtu.be/aZ8K_S1caU4?si=fPJPrPz_NA-u0gBz/)]
+
+---
 
 ## Modules Used
 - `PIL (Pillow)` – image processing
