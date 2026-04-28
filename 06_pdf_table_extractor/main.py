@@ -23,8 +23,6 @@ def extract_tables(file_path):
 
     try: 
 
-        output_csv = True
-
         with pdfplumber.open(file_path) as pdf:
             table_count = 0
             for page_num, page in enumerate(pdf.pages, start=1):
@@ -44,13 +42,12 @@ def extract_tables(file_path):
                             print(row)
 
 
-                    # Save table as CSV if requested
-                    if output_csv:
-                        csv_filename = output_dir / f"table_page{page_num}_{table_index}.csv"
-                        with open(csv_filename, "w", newline="", encoding="utf-8") as f:
-                            writer = csv.writer(f)
-                            writer.writerows(table)
-                        print(f"Table saved: {csv_filename}")
+                    # Save table as CSV 
+                    csv_filename = output_dir / f"table_page{page_num}_{table_index}.csv"
+                    with open(csv_filename, "w", newline="", encoding="utf-8") as f:
+                        writer = csv.writer(f)
+                        writer.writerows(table)
+                    print(f"Table saved: {csv_filename}")
 
             if table_count == 0:
                 print("No tables found in the PDF.")
