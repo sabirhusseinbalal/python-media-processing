@@ -13,6 +13,10 @@ It performs:
 - Save text into one file
 - Process pages in order
 
+**YouTube Video:**
+[[PDF Text Extractor | Python Image, Video & Media Processing (Project 5)](https://youtu.be/nQyIshvx9Mw/)]
+
+---
 
 ## Modules Used
 - `pdfplumber` – PDF text extraction
