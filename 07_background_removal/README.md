@@ -14,6 +14,10 @@ It performs:
 - Convert output to PNG
 - Save clean transparent images
 
+**YouTube Video:**
+[[Background Removal | Python Image, Video & Media Processing (Project 7)](https://youtu.be/cxRD5TqnJDY/)]
+
+---
 
 ## Modules Used
 - `rembg` – AI background removal
