@@ -13,6 +13,10 @@ It performs:
 - Handle multiple tables
 - Save tables as CSV files
 
+**YouTube Video:**
+[[PDF Table Extractor | Python Image, Video & Media Processing (Project 6)](https://youtu.be/zMPHaL0v794/)]
+
+---
 
 ## Modules Used
 - `pdfplumber` – read PDF and extract tables
