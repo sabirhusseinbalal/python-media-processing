@@ -29,8 +29,8 @@ It performs:
 ```
 Enter full path of the folder (or 'q' to quit): 
 
-No path provided — using default folder: input\
-Folder Loaded: input/
+No path provided — using default folder: \input
+Folder Loaded: \input
 Output folder exists. Delete and continue? (y/n): y
 Choose format:
 .mp3, .wav, .ogg, .flac, .aac, .m4a
