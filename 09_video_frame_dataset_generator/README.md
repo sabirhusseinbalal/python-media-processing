@@ -12,6 +12,11 @@ It performs:
 - Save frames as images
 - Create dataset from video content
 
+**YouTube Video:**
+[[Video Frame Dataset Generator | Python Image, Video & Media Processing (Project 9)](https://youtu.be/EophbTofyzw/)]
+
+---
+
 ## Modules Used
 - `cv2 (OpenCV)` – video reading and frame extraction
 - `pathlib` – file and folder handling
