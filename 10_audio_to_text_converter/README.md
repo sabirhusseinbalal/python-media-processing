@@ -14,6 +14,11 @@ It performs:
 - Display transcript in terminal
 - Save transcript to `.txt` file
 
+**YouTube Video:**
+[[Audio to Text Converter | Python Image, Video & Media Processing (Project 10)](https://youtu.be/JkEDnaDFzQE/)]
+
+---
+
 ## Modules Used
 - `whisper` – speech-to-text transcription
 - `pathlib` – file and folder handling
