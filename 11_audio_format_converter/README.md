@@ -14,6 +14,11 @@ It performs:
 - Copy files if format is already the same
 - Save all files in output folder
 
+**YouTube Video:**
+[[Audio Format Converter | Python Image, Video & Media Processing (Project 11)](https://youtu.be/aPOmx7EzGdo/)]
+
+---
+
 ## Modules Used
 - `pydub` – audio loading and conversion
 - `pathlib` – file and folder handling
