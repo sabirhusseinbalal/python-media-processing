@@ -40,6 +40,9 @@ def convert_audio(path):
         file = Path(file)
 
         try:
+            if file.stat().st_size == 0:
+                print(f"Skipped empty file: {file.name}")
+                continue
 
             if file.is_file() and file.suffix.lower() in audio_formats:
 
