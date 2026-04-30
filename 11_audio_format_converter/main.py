@@ -34,6 +34,7 @@ def convert_audio(path):
     target_format = get_format()
 
     records = 0
+    skipped = 0
 
     
     for file in path.rglob("*"):
@@ -42,22 +43,20 @@ def convert_audio(path):
         try:
             if file.stat().st_size == 0:
                 print(f"Skipped empty file: {file.name}")
+                skipped += 1
                 continue
 
             if file.is_file() and file.suffix.lower() in audio_formats:
 
                 print(file.name)
 
-                # same format → just copy
+                # same format ---> copy
                 if file.suffix.lower() == target_format:
                     shutil.copy(file, output_dir / file.name)
 
-                # different format → convert
+                # convert
                 else:
-                    audio = AudioSegment.from_file(
-                        str(file),
-                        format=file.suffix.lower().replace(".", "")
-                    )
+                    audio = AudioSegment.from_file(str(file))
 
                     audio.export(
                         output_dir / f"{file.stem}{target_format}",
@@ -66,13 +65,11 @@ def convert_audio(path):
 
                 records += 1
 
-        except Exception as e:
-            print(f"Failed to process {file.name}: {e}")
+        except Exception:
+            print(f"Skipped (invalid file): {file.name}")
+            skipped += 1
 
-    if records == 0:
-        print("No audio found to convert.")
-    else:
-        print(f"{records} audio converted successfully.")
+    print(f"\nDone → {records} converted, {skipped} skipped.")
 
 
 while True:
