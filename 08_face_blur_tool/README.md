@@ -13,6 +13,10 @@ It performs:
 - Process multiple images automatically
 - Save results in output folder
 
+**YouTube Video:**
+[[Face Blur Tool | Python Image, Video & Media Processing (Project 8)](https://youtu.be/Xo0W7MoyxoY/)]
+
+---
 
 ## Modules Used
 - `cv2 (OpenCV)` – face detection and image processing
