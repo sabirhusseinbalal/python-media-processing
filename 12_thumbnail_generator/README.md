@@ -14,6 +14,10 @@ It performs:
 - Draw text on image
 - Save new thumbnails in output folder
 
+**YouTube Video:**
+[[Thumbnail Generator | Python Image, Video & Media Processing (Project 12)](https://youtu.be/mTDakDaPcPc/)]
+
+---
 ## Modules Used
 - `Pillow` – image processing and text drawing
 - `pathlib` – file and folder paths
