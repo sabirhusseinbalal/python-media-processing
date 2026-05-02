@@ -17,6 +17,10 @@ If confidence is low, images are moved to an `"others"` folder.
 - Moves images into correct category folder
 - Handles unknown images using confidence threshold
 
+
+**YouTube Video:**
+[[Image Dataset Organizer | Python Image, Video & Media Processing (Project 12)](https://youtu.be/BMUGeyDn8-I/)]
+
 ---
 
 ## Modules Used
