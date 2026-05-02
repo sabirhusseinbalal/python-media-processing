@@ -5,6 +5,10 @@ This project analyzes image compression by reducing file size and comparing befo
 
 It helps understand how compression affects image quality and file size in real-world media processing.
 
+
+**YouTube Video:**
+[[Media Compression Analyzer | Python Image, Video & Media Processing (Project 13)](https://youtu.be/yqgYdCAoHRY?si=e7ZLHSewCpt7q37K/)]
+
 ---
 
 ## What this project does
