@@ -7,7 +7,7 @@ It helps understand how compression affects image quality and file size in real-
 
 
 **YouTube Video:**
-[[Media Compression Analyzer | Python Image, Video & Media Processing (Project 13)](https://youtu.be/yqgYdCAoHRY?si=e7ZLHSewCpt7q37K/)]
+[[Media Compression Analyzer | Python Image, Video & Media Processing (Project 14)](https://youtu.be/yqgYdCAoHRY?si=e7ZLHSewCpt7q37K/)]
 
 ---
 
