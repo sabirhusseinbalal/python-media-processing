@@ -32,7 +32,7 @@ If confidence is low, images are moved to an `"others"` folder.
 ---
 
 
-## Output
+## Output Example
 ```
 Enter full path of the folder (or 'q' to quit): 
 
