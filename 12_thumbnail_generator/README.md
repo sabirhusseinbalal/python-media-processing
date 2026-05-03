@@ -24,7 +24,7 @@ It performs:
 - `shutil` – delete old output folder
 
 
-## Output
+## Output Example
 ```
 Enter full path of the folder (or 'q' to quit):
 
