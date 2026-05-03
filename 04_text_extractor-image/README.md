@@ -26,7 +26,7 @@ It performs:
 - `shutil` – folder management
 
 
-## Output
+## Output Example
 ```
 Enter full path of the folder (or 'q' to quit):
 
