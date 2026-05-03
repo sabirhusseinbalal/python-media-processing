@@ -25,7 +25,7 @@ It performs:
 - `shutil` – folder management
 
 
-## Output
+## Output Example
 ```
 Enter full path of the pdf file (or 'q' to quit):
 
