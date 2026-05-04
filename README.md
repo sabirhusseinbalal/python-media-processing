@@ -8,7 +8,7 @@ The main goal is to understand how real media data is processed internally using
 Each project is practical, step-by-step, and designed for real-world learning — not just theory.
 
 **Watch Full YouTube Playlist:**
-[[Image, Video & Media Processing – 14 Projects (Group-4)](https://youtube.com/playlist?list=PLBslpEV463BeVHm1iQbBjalf8fr4tjpxN&si=AdAhNUPyqnZhf-1x/)]
+[[Image, Video & Media Processing – 14 Projects (Group-4)](https://youtube.com/playlist?list=PLBslpEV463BeVHm1iQbBjalf8fr4tjpxN&si=J7rD7qlTPpaLsfJJ/)]
 
 ---
 
