@@ -15,7 +15,7 @@ It performs:
 - Save transcript to `.txt` file
 
 **YouTube Video:**
-[[Audio to Text Converter | Python Image, Video & Media Processing (Project 10)](https://youtu.be/JkEDnaDFzQE/)]
+[[Audio to Text Converter | Python Image, Video & Media Processing (Project 10)](https://youtu.be/JkEDnaDFzQE?si=HG6CWGwqMorVQBCH/)]
 
 ---
 
