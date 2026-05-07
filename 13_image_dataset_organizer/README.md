@@ -19,7 +19,7 @@ If confidence is low, images are moved to an `"others"` folder.
 
 
 **YouTube Video:**
-[[Image Dataset Organizer | Python Image, Video & Media Processing (Project 13)](https://youtu.be/BMUGeyDn8-I/)]
+[[Image Dataset Organizer | Python Image, Video & Media Processing (Project 13)](https://youtu.be/BMUGeyDn8-I?si=9GslutYgJvdC_Eaq/)]
 
 ---
 
