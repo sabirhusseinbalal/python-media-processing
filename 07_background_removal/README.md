@@ -15,7 +15,7 @@ It performs:
 - Save clean transparent images
 
 **YouTube Video:**
-[[Background Removal | Python Image, Video & Media Processing (Project 7)](https://youtu.be/cxRD5TqnJDY/)]
+[[Background Removal | Python Image, Video & Media Processing (Project 7)](https://youtu.be/cxRD5TqnJDY?si=kX_DNgN3RfPQAFTV/)]
 
 ---
 
