@@ -15,7 +15,7 @@ It performs:
 - Save all files in output folder
 
 **YouTube Video:**
-[[Audio Format Converter | Python Image, Video & Media Processing (Project 11)](https://youtu.be/aPOmx7EzGdo/)]
+[[Audio Format Converter | Python Image, Video & Media Processing (Project 11)](https://youtu.be/aPOmx7EzGdo?si=5TrMprWTrufi--ut/)]
 
 ---
 
