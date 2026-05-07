@@ -14,7 +14,7 @@ It performs:
 - Process pages in order
 
 **YouTube Video:**
-[[PDF Text Extractor | Python Image, Video & Media Processing (Project 5)](https://youtu.be/nQyIshvx9Mw/)]
+[[PDF Text Extractor | Python Image, Video & Media Processing (Project 5)](https://youtu.be/nQyIshvx9Mw?si=3qJnnof5Ya_Ouqj4/)]
 
 ---
 
