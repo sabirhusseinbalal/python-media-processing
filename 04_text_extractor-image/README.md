@@ -15,7 +15,7 @@ It performs:
 - Process multiple images automatically
 
 **YouTube Video:**
-[[OCR Image to Text Extractor | Python Image, Video & Media Processing (Project 4)](https://youtu.be/bB58irUEEOk/)]
+[[OCR Image to Text Extractor | Python Image, Video & Media Processing (Project 4)](https://youtu.be/bB58irUEEOk?si=RyDqxe0mQNaTYTOW/)]
 
 ---
 
