@@ -14,7 +14,7 @@ It performs:
 - Save tables as CSV files
 
 **YouTube Video:**
-[[PDF Table Extractor | Python Image, Video & Media Processing (Project 6)](https://youtu.be/zMPHaL0v794/)]
+[[PDF Table Extractor | Python Image, Video & Media Processing (Project 6)](https://youtu.be/zMPHaL0v794?si=dXRqKSgf3OPKBW5T/)]
 
 ---
 
