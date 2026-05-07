@@ -15,7 +15,7 @@ It performs:
 - Save new thumbnails in output folder
 
 **YouTube Video:**
-[[Thumbnail Generator | Python Image, Video & Media Processing (Project 12)](https://youtu.be/mTDakDaPcPc/)]
+[[Thumbnail Generator | Python Image, Video & Media Processing (Project 12)](https://youtu.be/mTDakDaPcPc?si=-nfdO1Q9Xnb3nE4v/)]
 
 ---
 ## Modules Used
