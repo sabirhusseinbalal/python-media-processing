@@ -8,7 +8,7 @@ This project reads images from a folder, processes them, and saves optimized ver
 It helps understand basic image processing in Python.
 
 **YouTube Video:**
-[[Batch Image Optimizer | Python Image, Video & Media Processing (Project 1)](https://youtu.be/cxRD5TqnJDY?si=kX_DNgN3RfPQAFTV/)]
+[[Batch Image Optimizer | Python Image, Video & Media Processing (Project 1)](https://youtu.be/OREYBmPQ5SA?si=HslpIdw3tTOeImEm/)]
 
 ---
 
