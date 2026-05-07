@@ -13,7 +13,7 @@ It performs:
 - Create dataset from video content
 
 **YouTube Video:**
-[[Video Frame Dataset Generator | Python Image, Video & Media Processing (Project 9)](https://youtu.be/EophbTofyzw/)]
+[[Video Frame Dataset Generator | Python Image, Video & Media Processing (Project 9)](https://youtu.be/EophbTofyzw?si=_Hn59rH_qVkmFTIy/)]
 
 ---
 
