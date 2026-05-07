@@ -14,7 +14,7 @@ It performs:
 - Save results in output folder
 
 **YouTube Video:**
-[[Face Blur Tool | Python Image, Video & Media Processing (Project 8)](https://youtu.be/Xo0W7MoyxoY/)]
+[[Face Blur Tool | Python Image, Video & Media Processing (Project 8)](https://youtu.be/Xo0W7MoyxoY?si=DYyhHTbONxn6JpUd/)]
 
 ---
 
